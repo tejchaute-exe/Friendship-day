@@ -15,7 +15,7 @@ export const LOADING_MESSAGES = [
 
 export const IDENTITY_CHECKS = [
   'Human',
-  'IT Student',
+  'Curious',
   'Talks a lot after getting comfortable',
   'Makes random conversations fun',
   'Pretty awesome',
@@ -28,9 +28,9 @@ export const ACHIEVEMENTS = [
     note: 'Could probably talk about almost anything.',
   },
   {
-    title: 'Random Topic Champion',
+    title: 'Strong-Willed',
     emoji: '✨',
-    note: 'Somehow every topic became interesting.',
+    note: 'Not the type to give up easily.',
   },
   {
     title: 'Conversation Expert',
@@ -38,18 +38,22 @@ export const ACHIEVEMENTS = [
     note: 'Time flies surprisingly fast.',
   },
   {
-    title: 'Certified Good Company',
-    emoji: '🎮',
-    note: 'Makes ordinary chats unexpectedly fun.',
+    title: 'Short Temper, Good Heart',
+    emoji: '😤',
+    note: 'Gets irritated quickly... but never stays that way for long.',
   },
 ];
 
 export const CONFIDENTIAL_LINES = [
   'Sometimes...',
-  'the nicest part of the day',
-  'is a completely random conversation.',
-  'The kind that starts for no reason...',
-  'and somehow keeps going.',
+  "people become part of your day",
+  'without you even realizing it.',
+  '',
+  'Not because of anything big...',
+  'but because the little moments',
+  'quietly add up.',
+  '',
   'So...',
-  'thanks for being one of those people.',
+  'just wanted to say',
+  'I appreciate those moments.',
 ];

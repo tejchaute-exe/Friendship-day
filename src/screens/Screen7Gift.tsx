@@ -86,7 +86,7 @@ export function Screen7Gift({ onNext }: Props) {
                 <br />
                 great memories,
                 <br />
-                and as few software bugs as possible.
+                and plenty of moments worth remembering. 🌼
               </p>
             </div>
             <div className="mt-6 flex justify-center">

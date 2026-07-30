@@ -62,7 +62,7 @@ export function Screen8Complete({ onReplay }: Props) {
         transition={{ duration: 0.6 }}
         className="font-body text-ink/60 mt-3"
       >
-        — from someone who enjoys your random conversations :)
+        — from someone who enjoys your bak bak :)
       </motion.p>
 
       <motion.div
