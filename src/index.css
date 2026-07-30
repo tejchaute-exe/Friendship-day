@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html,
+  body,
+  #root {
+    height: 100%;
+  }
+  body {
+    @apply bg-cream text-ink font-body antialiased;
+    overflow-x: hidden;
+  }
+  ::selection {
+    background: #FFD54A;
+    color: #2D2D2D;
+  }
+}
+
+@layer utilities {
+  .font-heading {
+    font-family: 'Fredoka', system-ui, sans-serif;
+  }
+  .font-body {
+    font-family: 'Nunito', system-ui, sans-serif;
+  }
+  .font-hand {
+    font-family: 'Caveat', cursive;
+  }
+  .no-tap-highlight {
+    -webkit-tap-highlight-color: transparent;
+  }
+}
+
+/* Reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+  }
+}
