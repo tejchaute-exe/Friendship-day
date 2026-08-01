@@ -23,14 +23,19 @@ export const IDENTITY_CHECKS = [
 
 export const ACHIEVEMENTS = [
   {
+    title: 'Pocket-Sized Legend',
+    emoji: '🤏',
+    note: 'Small in height. Massive in personality.',
+  },
+  {
     title: 'Professional Yapper',
     emoji: '💬',
     note: 'Could probably talk about almost anything.',
   },
   {
-    title: 'Strong-Willed',
-    emoji: '✨',
-    note: 'Not the type to give up easily.',
+    title: 'Never-Gives-Up Award',
+    emoji: '💪',
+    note: 'Stubborn enough to call it determination.',
   },
   {
     title: 'Conversation Expert',
@@ -56,4 +61,7 @@ export const CONFIDENTIAL_LINES = [
   'So...',
   'just wanted to say',
   'I appreciate those moments.',
+  '',
+  'Keep smiling...',
+  'Good Girl. 🌼',
 ];
