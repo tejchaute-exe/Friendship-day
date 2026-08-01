@@ -14,10 +14,10 @@ export const LOADING_MESSAGES = [
 ];
 
 export const IDENTITY_CHECKS = [
-  'Human',
-  'Curious',
+  'Smart',
+  'Stubborn',
   'Talks a lot after getting comfortable',
-  'Makes random conversations fun',
+  'Pocket-sized',
   'Pretty awesome',
 ];
 
